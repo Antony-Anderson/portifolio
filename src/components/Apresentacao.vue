@@ -1,82 +1,110 @@
 <template>
-    <div>
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Card Exemplo</title>
-            <link rel="stylesheet" href="styles.css">
-        </head>
-        <body>
-            <div class="card-container">
-                <div class="card">
-                    <h1 class="card-title">Título do Card</h1>
-                    <p class="card-description">Esta é a descrição do card. Aqui você pode adicionar mais detalhes sobre o conteúdo deste card.</p>
-                </div>
-            </div>
-        </body>
+    <div class="profile-container">
+        <div class="profile-info">
+            <h1 class="profile-name">Antony Anderson Vieira Seixas</h1>
+            <h2 class="profile-title">Desenvolvedor Full Stack</h2>
+            <hr>
+            <p class="profile-description">
+                Durante o período de mais de um ano, mergulhei profundamente no mundo da programação e adquiri uma sólida base em diversas tecnologias.
+            </p>
+            <p class="profile-description">
+                Meu objetivo é contribuir com soluções inovadoras e eficientes, seja em front-end, back-end, ou no desenvolvimento de aplicativos móveis.
+            </p>
+            <hr>
+        </div>
+        <img src="../assets/images/perfil.jpeg" alt="Foto de Antony" class="profile-img">
     </div>
 </template>
 
 <style scoped>
-    h1{
-        margin-top: 30px;
-        text-align: center;
-    }
-    body, html {
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        margin: 0;
-        padding: 0;
-        height: 100%;
+    .profile-container {
         display: flex;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-between;
         align-items: center;
-        background-color: #f0f0f0;
-        font-family: Arial, sans-serif;
+        height: 100vh;
+        padding: 20px;
+        gap: 20px;
     }
 
-    .card-container {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .profile-info {
+        flex: 1;
+        max-width: 50%;
+        text-align: left;
     }
 
-    .card {
-        background-color: #ffffff;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        padding: 40px;
-        max-width: 80%;
-        text-align: center;
-        transform: scale(0.8);
-        animation: grow 1s ease-out forwards;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    .profile-img {
+        flex: 1;
+        max-width: 30vw;
+        height: auto;
+        border-radius: 10%;
+        object-fit: cover;
     }
 
-    .card-title {
+    .profile-name {
         font-size: 2.5rem;
-        margin-bottom: 20px;
+        margin: 10px 0;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 700;
+        color: white;
     }
 
-    .card-description {
+    .profile-title {
+        color: white;
+        font-size: 1.8rem;
+        margin: 10px 0;
+        font-family: 'Copperplate', fantasy;
+    }
+
+    .profile-description {
         font-size: 1.2rem;
-        color: #555555;
+        color: rgb(168, 160, 160);
+        margin: 10px 0;
+        line-height: 1.6;
+        text-align: justify;
     }
 
-    .card:hover {
-        transform: scale(1.05);
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    }
-
-    @keyframes grow {
-        0% {
-            transform: scale(0.8);
-            background-color: #e0e0e0;
+    @media (max-width: 768px) {
+        .profile-container {
+            flex-direction: column;
+            align-items: center;
+            height: auto;
+            text-align: center;
         }
-        100% {
-            transform: scale(1);
-            background-color: #ffffff;
+
+        .profile-info {
+            max-width: 100%;
+        }
+
+        .profile-img {
+            max-width: 80vw;
+            margin-top: 20px;
+        }
+
+        .profile-name {
+            font-size: 2rem;
+        }
+
+        .profile-title {
+            font-size: 1.5rem;
+        }
+
+        .profile-description {
+            font-size: 1rem;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .profile-name {
+            font-size: 1.5rem;
+        }
+
+        .profile-title {
+            font-size: 1.2rem;
+        }
+
+        .profile-description {
+            font-size: 0.9rem;
         }
     }
 </style>
