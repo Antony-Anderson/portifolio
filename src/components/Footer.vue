@@ -27,6 +27,9 @@
                         <a href="https://wa.me/75988152683" target="_blank">
                             <i class="fa-brands fa-whatsapp" style="color: #1e7158;"></i>
                         </a>
+                        <a href="https://www.instagram.com/antonyanderson_/" target="_blank">
+                            <i class="fa-brands fa-instagram" style="color: #dd69d1;"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="availability-section">
