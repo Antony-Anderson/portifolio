@@ -41,8 +41,8 @@
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        max-width: 1200px; /* Ajuste a largura máxima conforme necessário */
-        margin: 20px 0; /* Margens superior e inferior */
+        max-width: 1200px; 
+        margin: 20px 0;
         box-sizing: border-box;
     }
 
@@ -88,7 +88,7 @@
             flex-direction: column;
             align-items: center;
             width: 100%;
-            margin: 10px 0; /* Ajuste para telas menores */
+            margin: 10px 0; 
         }
 
         .profile-info {
@@ -98,7 +98,7 @@
         .profile-img {
             max-width: 80vw;
             margin-top: 20px;
-            object-fit: contain; /* Impede distorção da imagem */
+            object-fit: contain; 
         }
 
         .profile-name {
