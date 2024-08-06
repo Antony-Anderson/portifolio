@@ -3,37 +3,55 @@
         <h2 class="tech-title">Minhas Tecnologias</h2>
         <div class="tech-card">
             <div class="icons">
-                <div class="icon-item">
-                    <i class="fa-brands fa-php" style="color: #156bb7;"></i>
-                    <span>PHP</span>
+                <!-- Primeira linha de ícones -->
+                <div class="icon-row">
+                    <div class="icon-item">
+                        <i class="fa-brands fa-html5" style="color: #da7210;"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fa-brands fa-css3-alt" style="color: #1488e1;"></i>
+                        <span>Css</span>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fa-brands fa-bootstrap" style="color: #4711e8;"></i>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fa-brands fa-php" style="color: #156bb7;"></i>
+                        <span>PHP</span>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fa-brands fa-laravel" style="color: #e70d11;"></i>
+                        <span>Laravel</span>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fa-brands fa-js" style="color: #FFD43B;"></i>
+                        <span>JavaScript</span>
+                    </div>
                 </div>
-                <div class="icon-item">
-                    <i class="fa-brands fa-laravel" style="color: #e70d11;"></i>
-                    <span>Laravel</span>
-                </div>
-                <div class="icon-item">
-                    <i class="fa-brands fa-js" style="color: #FFD43B;"></i>
-                    <span>JavaScript</span>
-                </div>
-                <div class="icon-item">
-                    <i class="fa-solid fa-code" style="color: #74C0FC;"></i>
-                    <span>TypeScript</span>
-                </div>
-                <div class="icon-item">
-                    <i class="fa-brands fa-vuejs" style="color: #63E6BE;"></i>
-                    <span>Vue.js</span>
-                </div>
-                <div class="icon-item">
-                    <i class="fa-brands fa-react" style="color: #74C0FC;"></i>
-                    <span>React Native / React</span>
-                </div>
-                <div class="icon-item">
-                    <i class="fa-solid fa-database" style="color: #b93134;"></i>
-                    <span>Banco de Dados</span>
+                <!-- Segunda linha de ícones -->
+                <div class="icon-row">
+                    <div class="icon-item">
+                        <i class="fa-solid fa-code" style="color: #74C0FC;"></i>
+                        <span>TypeScript</span>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fa-brands fa-vuejs" style="color: #63E6BE;"></i>
+                        <span>Vue.js</span>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fa-brands fa-react" style="color: #74C0FC;"></i>
+                        <span>React Native / React</span>
+                    </div>
+                    <div class="icon-item">
+                        <i class="fa-solid fa-database" style="color: #b93134;"></i>
+                        <span>Banco de Dados</span>
+                    </div>
                 </div>
             </div>
         </div>
-        <h2 class="tech-title">Minhas Tecnologias</h2>
+        <h2 class="tech-title">Descrição</h2>
         <div class="code-card">
             <pre><code>
 Desenvolvimento de aplicações web robustas usando o framework Laravel, seguindo as melhores práticas de 
@@ -100,8 +118,15 @@ Integração com sistemas de banco de dados, APIs externas e serviços web.
 
     .icons {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon-row {
+        display: flex;
         justify-content: center;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
     }
 
     .icon-item {
