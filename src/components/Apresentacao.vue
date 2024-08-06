@@ -1,36 +1,49 @@
 <template>
-    <div class="profile-container">
-        <div class="profile-info">
-            <h1 class="profile-name">Antony Anderson Vieira Seixas</h1>
-            <h2 class="profile-title">Desenvolvedor Full Stack</h2>
-            <hr>
-            <p class="profile-description">
-                Como programador full stack apaixonado por tecnologia e inovação, tenho 19 anos e uma sólida experiência em Laravel, PHP, Vue.js, JavaScript, TypeScript, React Native e banco de dados. Minha abordagem para o desenvolvimento de software é marcada por um compromisso inabalável com a qualidade e a eficiência, sempre buscando criar soluções elegantes e funcionais.
-            </p>
-            <p class="profile-description">
-                Trabalhar em equipe é uma das minhas maiores fortalezas. Valorizo a colaboração e a comunicação aberta, acreditando que um bom projeto é fruto de uma sinergia entre profissionais dedicados. Estou sempre disposto a compartilhar conhecimentos e aprender com os outros, o que contribui para um ambiente de trabalho harmonioso e produtivo.
-            </p>
-            <p class="profile-description">
-                Minha proatividade e espírito autodidata me permitem enfrentar desafios com confiança e buscar constantemente novas habilidades e tecnologias. Tenho um forte desejo de aprimorar minhas competências e estou sempre atualizado com as tendências mais recentes do setor.
-            </p>
-            <p class="profile-description">
-                Estou pronto para trazer minha experiência e entusiasmo para sua equipe, contribuindo para o desenvolvimento de soluções inovadoras e impactantes.
-            </p>
-            <hr>
+    <div class="main-container">
+        <div class="profile-container">
+            <div class="profile-info">
+                <h1 class="profile-name">Antony Anderson Vieira Seixas</h1>
+                <h2 class="profile-title">Desenvolvedor Full Stack</h2>
+                <hr>
+                <p class="profile-description">
+                    Como programador full stack apaixonado por tecnologia e inovação, tenho 19 anos e uma sólida experiência em Laravel, PHP, Vue.js, JavaScript, TypeScript, React Native e banco de dados. Minha abordagem para o desenvolvimento de software é marcada por um compromisso inabalável com a qualidade e a eficiência, sempre buscando criar soluções elegantes e funcionais.
+                </p>
+                <p class="profile-description">
+                    Trabalhar em equipe é uma das minhas maiores fortalezas. Valorizo a colaboração e a comunicação aberta, acreditando que um bom projeto é fruto de uma sinergia entre profissionais dedicados. Estou sempre disposto a compartilhar conhecimentos e aprender com os outros, o que contribui para um ambiente de trabalho harmonioso e produtivo.
+                </p>
+                <p class="profile-description">
+                    Minha proatividade e espírito autodidata me permitem enfrentar desafios com confiança e buscar constantemente novas habilidades e tecnologias. Tenho um forte desejo de aprimorar minhas competências e estou sempre atualizado com as tendências mais recentes do setor.
+                </p>
+                <p class="profile-description">
+                    Estou pronto para trazer minha experiência e entusiasmo para sua equipe, contribuindo para o desenvolvimento de soluções inovadoras e impactantes.
+                </p>
+                <hr>
+            </div>
+            <img src="../assets/images/perfil.jpeg" alt="Foto de Antony" class="profile-img">
         </div>
-        <img src="../assets/images/perfil.jpeg" alt="Foto de Antony" class="profile-img">
     </div>
 </template>
 
 <style scoped>
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
     .profile-container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        height: 100vh;
-        padding: 20px;
-        gap: 20px;
+        width: 100%;
+        max-width: 1200px; /* Ajuste a largura máxima conforme necessário */
+        margin: 20px 0; /* Margens superior e inferior */
+        box-sizing: border-box;
     }
 
     .profile-info {
@@ -52,11 +65,11 @@
         margin: 10px 0;
         font-family: 'Courier New', Courier, monospace;
         font-weight: 700;
-        color: white;
+        color: #d9dce3;
     }
 
     .profile-title {
-        color: white;
+        color: #d9dce3;
         font-size: 1.8rem;
         margin: 10px 0;
         font-family: 'Copperplate', fantasy;
@@ -64,7 +77,7 @@
 
     .profile-description {
         font-size: 1.2rem;
-        color: rgb(168, 160, 160);
+        color: rgb(201, 194, 194);
         margin: 10px 0;
         line-height: 1.6;
         text-align: justify;
@@ -74,8 +87,8 @@
         .profile-container {
             flex-direction: column;
             align-items: center;
-            height: auto;
-            text-align: center;
+            width: 100%;
+            margin: 10px 0; /* Ajuste para telas menores */
         }
 
         .profile-info {
