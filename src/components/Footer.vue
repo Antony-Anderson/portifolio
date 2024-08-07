@@ -9,7 +9,7 @@
             <div class="footer-sections">
                 <div class="contact-section">
                     <h3>Informações de contato</h3>
-                    <p>Email: <a href="antony01anderson@gmail.com" target="_blank">antony01anderson@gmail.com</a></p>
+                    <p>Email: <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWrRnXVNXZzhgFKpSsgwrhckfDfvSGtQHNSkRdFsSHmcfZtwhrzJQGrVQcPnldWPpRtNWlVGv" target="_blank">antony01anderson@gmail.com</a></p>
                     <p>Telefone: <a href="https://wa.me/75988152683" target="_blank">+55 75 98815-2683</a></p>
                 </div>
                 <div class="social-section">
