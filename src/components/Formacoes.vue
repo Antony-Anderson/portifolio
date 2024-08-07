@@ -7,12 +7,12 @@
                 <div class="carousel-item active">
                     <div class="row">
                         <div class="col">
-                            <a href="https://cursos.alura.com.br/user/antony01anderson/degree-linguagem-php-v597958-597958/certificate">
+                            <a href="https://cursos.alura.com.br/user/antony01anderson/degree-linguagem-php-v597958-597958/certificate" target="_blank">
                                 <img src="../assets/images/certificados/php.png" class="d-block w-100" alt="Imagem 1">
                             </a>    
                         </div>
                         <div class="col">
-                            <a href="https://cursos.alura.com.br/user/antony01anderson/degree-linguagem-php-v597958-597958/certificate">
+                            <a href="https://cursos.alura.com.br/user/antony01anderson/degree-linguagem-php-v597958-597958/certificate" target="_blank">
                                 <img src="../assets/images/certificados/php-verso.png" class="d-block w-100" alt="Imagem 2">
                             </a>
                         </div>
