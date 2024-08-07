@@ -124,4 +124,11 @@
         height: 100%; 
         object-fit: cover; 
     }
+
+    .carousel-control-prev-icon{
+        background-color: black;
+    }
+    .carousel-control-next-icon{
+        background-color: black;
+    }
 </style>
