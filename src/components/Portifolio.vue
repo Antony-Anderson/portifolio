@@ -3,7 +3,7 @@
         <h1>Portfólio</h1>
         <div class="container">
             <div class="card">
-                <a href="https://financeiro-empire.ddns.net/">
+                <a href="https://financeiro-empire.ddns.net/" target="_blank">
                     <img src="../assets/images/financeiro.png" class="card-img">
                 </a>
                 <div class="card-content">

@@ -2,15 +2,15 @@
     <footer class="footer">
         <div class="content">
             <h3 class="titulo">Precisa de um desenvolvedor?</h3>
-            <a href="https://wa.me/75988152683" class="cta-link">
+            <a href="https://wa.me/75988152683" class="cta-link" target="_blank">
                 <h1>Vamos trabalhar juntos →</h1>
             </a>
             <hr>
             <div class="footer-sections">
                 <div class="contact-section">
                     <h3>Informações de contato</h3>
-                    <p>Email: <a href="mailto:seuemail@exemplo.com">antony01anderson@gmail.com</a></p>
-                    <p>Telefone: <a href="https://wa.me/75988152683">+55 75 98815-2683</a></p>
+                    <p>Email: <a href="antony01anderson@gmail.com" target="_blank">antony01anderson@gmail.com</a></p>
+                    <p>Telefone: <a href="https://wa.me/75988152683" target="_blank">+55 75 98815-2683</a></p>
                 </div>
                 <div class="social-section">
                     <h3>Me siga</h3>
