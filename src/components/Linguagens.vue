@@ -1,6 +1,9 @@
 <template>
     <div class="tech-card-container">
-        <h2 class="tech-title">Minhas Tecnologias</h2>
+        <h2 class="tech-title">
+            <i class="fa-solid fa-laptop-code" style="color: #235ab8;"></i>
+            Minhas Tecnologias
+        </h2>
         <div class="tech-card">
             <div class="icons">
                 <!-- Primeira linha de ícones -->
@@ -51,7 +54,10 @@
                 </div>
             </div>
         </div>
-        <h2 class="tech-title">Descrição</h2>
+        <h2 class="tech-title">
+            <i class="fa-solid fa-font-awesome" style="color: #235ab8"></i>
+            Descrição
+        </h2>
         <div class="code-card">
             <pre><code>
 Desenvolvimento de aplicações web robustas usando o framework Laravel, seguindo as melhores práticas de 

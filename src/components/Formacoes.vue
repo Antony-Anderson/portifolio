@@ -1,6 +1,9 @@
 <template>
     <div>
-        <h1>Formações e Cursos</h1>
+        <h1>
+            <i class="fa-solid fa-book" style="color: #235ab8;"></i>
+            Formações e Cursos
+        </h1>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <!-- Slide 1 -->

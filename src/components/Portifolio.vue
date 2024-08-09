@@ -1,6 +1,9 @@
 <template>
     <div>
-        <h1>Portfólio</h1>
+        <h1>
+            <i class="fa-solid fa-list-ul" style="color: #235ab8"></i>
+            Portfólio
+        </h1>
         <div class="container">
             <div class="card">
                 <a href="https://financeiro-empire.ddns.net/" target="_blank">
