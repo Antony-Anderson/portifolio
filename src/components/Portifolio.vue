@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>
-            <i class="fa-solid fa-list-ul" style="color: #ff5733"></i>
+            <i class="fa-solid fa-list-ul" style="color: #1E90FF"></i>
             Portfólio
         </h1>
         <div class="container">

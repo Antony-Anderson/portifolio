@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>
-            <i class="fa-solid fa-book" style="color: #ff5733;"></i>
+            <i class="fa-solid fa-book" style="color: #1E90FF;"></i>
             Formações e Cursos
         </h1>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
