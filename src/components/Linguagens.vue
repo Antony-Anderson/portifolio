@@ -1,7 +1,7 @@
 <template>
     <div class="tech-card-container">
         <h2 class="tech-title">
-            <i class="fa-solid fa-laptop-code" style="color: #235ab8;"></i>
+            <i class="fa-solid fa-laptop-code" style="color: #ff5733;"></i>
             Minhas Tecnologias
         </h2>
         <div class="tech-card">
@@ -55,7 +55,7 @@
             </div>
         </div>
         <h2 class="tech-title">
-            <i class="fa-solid fa-font-awesome" style="color: #235ab8"></i>
+            <i class="fa-solid fa-font-awesome" style="color: #ff5733"></i>
             Descrição
         </h2>
         <div class="code-card">

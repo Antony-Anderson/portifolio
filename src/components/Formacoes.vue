@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>
-            <i class="fa-solid fa-book" style="color: #235ab8;"></i>
+            <i class="fa-solid fa-book" style="color: #ff5733;"></i>
             Formações e Cursos
         </h1>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -90,6 +90,16 @@
                         </div>
                         <div class="col">
                             <img src="../assets/images/certificados/javascript-cv.png" class="d-block w-100" alt="Imagem 5">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col">
+                            <img src="../assets/images/certificados/http.png" class="d-block w-100" alt="Imagem 5">
+                        </div>
+                        <div class="col">
+                            <img src="../assets/images/certificados/http-verso.png" class="d-block w-100" alt="Imagem 5">
                         </div>
                     </div>
                 </div>
