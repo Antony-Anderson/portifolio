@@ -122,7 +122,7 @@
 <script setup>
     import { computed } from 'vue'
     const tempoAtuacao = computed(() => {
-        const inicio = new Date(2024, 8, 25) 
+        const inicio = new Date(2024, 7, 25) 
         const hoje = new Date()
 
         let anos = hoje.getFullYear() - inicio.getFullYear()
