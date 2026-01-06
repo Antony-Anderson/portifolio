@@ -21,14 +21,8 @@
                         <a href="https://github.com/Antony-Anderson" target="_blank">
                             <i class="fa-brands fa-github" style="color: #eef1f7;"></i>
                         </a>
-                        <a href="https://x.com/antonyanderson_" target="_blank">
-                            <i class="fa-brands fa-twitter" style="color: #2760aa;"></i>
-                        </a>
                         <a href="https://wa.me/75988152683" target="_blank">
                             <i class="fa-brands fa-whatsapp" style="color: #1e7158;"></i>
-                        </a>
-                        <a href="https://www.instagram.com/antonyanderson_/" target="_blank">
-                            <i class="fa-brands fa-instagram" style="color: #dd69d1;"></i>
                         </a>
                     </div>
                 </div>

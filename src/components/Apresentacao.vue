@@ -6,7 +6,7 @@
                 <h2 class="profile-title">Desenvolvedor Full Stack</h2>
                 <hr>
                 <p class="profile-description">
-                    Como programador full stack apaixonado por tecnologia e inovação, tenho 19 anos e uma sólida experiência em Laravel, PHP, Vue.js, JavaScript, TypeScript, React Native e banco de dados. Minha abordagem para o desenvolvimento de software é marcada por um compromisso inabalável com a qualidade e a eficiência, sempre buscando criar soluções elegantes e funcionais.
+                    Como programador full stack apaixonado por tecnologia e inovação, tenho {{ idade }} anos e uma sólida experiência em Laravel, Symfony, PHP, Vue.js, JavaScript, TypeScript, React Native e banco de dados. Minha abordagem para o desenvolvimento de software é marcada por um compromisso inabalável com a qualidade e a eficiência, sempre buscando criar soluções elegantes e funcionais.
                 </p>
                 <p class="profile-description">
                     Trabalhar em equipe é uma das minhas maiores fortalezas. Valorizo a colaboração e a comunicação aberta, acreditando que um bom projeto é fruto de uma sinergia entre profissionais dedicados. Estou sempre disposto a compartilhar conhecimentos e aprender com os outros, o que contribui para um ambiente de trabalho harmonioso e produtivo.
@@ -23,6 +23,29 @@
         </div>
     </div>
 </template>
+
+<script>
+    export default {
+        computed: {
+            idade() {
+                const nascimento = new Date(2005, 3, 2)
+                const hoje = new Date()
+
+                let idade = hoje.getFullYear() - nascimento.getFullYear()
+
+                const jaFezAniversario =
+                    hoje.getMonth() > nascimento.getMonth() ||
+                    (hoje.getMonth() === nascimento.getMonth() &&
+                    hoje.getDate() >= nascimento.getDate())
+
+                if (!jaFezAniversario) idade--
+
+                return idade
+            }
+        }
+    }
+</script>
+
 
 <style scoped>
     .main-container {
