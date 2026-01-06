@@ -29,6 +29,10 @@
                         <span>Laravel</span>
                     </div>
                     <div class="icon-item">
+                        <i class="fa-brands fa-symfony"></i>
+                        <span>Symfony</span>
+                    </div>
+                    <div class="icon-item">
                         <i class="fa-brands fa-js" style="color: #FFD43B;"></i>
                         <span>JavaScript</span>
                     </div>
@@ -60,29 +64,83 @@
         </h2>
         <div class="code-card">
             <pre><code>
-Desenvolvimento de aplicações web robustas usando o framework Laravel, seguindo as melhores práticas de 
-arquitetura MVC.
-Criação e integração de APIs RESTful.
-Uso avançado de Eloquent ORM para manipulação e relacionamento de dados em bancos de dados relacionais.
-Implementação de testes automatizados unitários.
-Gerenciamento de filas de trabalhos assíncronos usando o Laravel Queue.
-Criação de documentação.
+    Desenvolvimento de aplicações web robustas usando o framework Laravel, seguindo as melhores práticas de 
+    arquitetura MVC.
+    Criação e integração de APIs RESTful.
+    Uso avançado de Eloquent ORM para manipulação e relacionamento de dados em bancos de dados relacionais.
+    Implementação de testes automatizados unitários.
+    Gerenciamento de filas de trabalhos assíncronos usando o Laravel Queue.
+    Criação de documentação.
 
-Desenvolvimento de interfaces de usuário dinâmicas e reativas utilizando Vue.js.
-Criação de componentes reutilizáveis e modulares, utilizando o sistema de slots e props.
-Integração de Vue Router para navegação single-page e Vuex para gerenciamento de estado global.
-Uso de APIs do Vue 3, como Composition API, para um código mais modular e organizado.
+    Desenvolvimento de interfaces de usuário dinâmicas e reativas utilizando Vue.js.
+    Criação de componentes reutilizáveis e modulares, utilizando o sistema de slots e props.
+    Integração de Vue Router para navegação single-page e Vuex para gerenciamento de estado global.
+    Uso de APIs do Vue 3, como Composition API, para um código mais modular e organizado.
 
-Desenvolvimento de scripts front-end interativos e responsivos.
-Manipulação do DOM, eventos e animações usando JavaScript puro.
-Integração de bibliotecas e frameworks externos para funcionalidades adicionais, como gráficos.
+    Desenvolvimento de scripts front-end interativos e responsivos.
+    Manipulação do DOM, eventos e animações usando JavaScript puro.
+    Integração de bibliotecas e frameworks externos para funcionalidades adicionais, como gráficos.
 
-Programação orientada a objetos em PHP.
-Integração com sistemas de banco de dados, APIs externas e serviços web.
+    Programação orientada a objetos em PHP.
+    Integração com sistemas de banco de dados, APIs externas e serviços web.
+            </code></pre>
+        </div>
+        <h2 class="tech-title">
+            <i class="fa-solid fa-font-awesome" style="color: #1E90FF"></i>
+            Trabalho atualmente:
+        </h2>
+        <div class="code-card">
+            <pre><code>
+    Trabalho atualmente ultilizando a tecnologica symfony na empresa chamada blue company, onde já estou 
+    atuando atuando há {{ tempoAtuacao.anos }} {{ tempoAtuacao.anos === 1 ? 'ano' : 'anos' }} e {{ tempoAtuacao.meses }} {{ tempoAtuacao.meses === 1 ? 'mês' : 'meses' }}.
+    Principais atividades e entregas com Symfony:
+
+    - Desenvolvimento e manutenção de aplicações web utilizando Symfony Framework
+    - Criação e manutenção de APIs RESTful
+    - Implementação de CRUDs complexos com Doctrine ORM
+    - Modelagem e gerenciamento de banco de dados (MySQL/PostgreSQL)
+    - Criação de entidades, repositórios e migrations
+    - Integração com serviços externos e APIs de terceiros
+    - Implementação de sistemas de autenticação e autorização (roles, permissions, security)
+    - Desenvolvimento de regras de negócio seguindo boas práticas e princípios SOLID
+    - Uso de Twig para renderização de templates
+    - Criação e manutenção de formulários dinâmicos com validações
+    - Tratamento de erros, exceções e logs
+    - Escrita e manutenção de testes automatizados
+    - Otimização de performance e consultas ao banco de dados
+    - Correção de bugs e refatoração de código legado
+    - Versionamento de código com Git
+    - Trabalho colaborativo em equipe seguindo metodologias ágeis (Scrum/Kanban)
+    - Deploy e manutenção de aplicações em ambiente de produção
+    - Documentação técnica de funcionalidades desenvolvidas
+    ...
             </code></pre>
         </div>
     </div>
 </template>
+
+<script setup>
+    import { computed } from 'vue'
+    const tempoAtuacao = computed(() => {
+        const inicio = new Date(2024, 8, 25) 
+        const hoje = new Date()
+
+        let anos = hoje.getFullYear() - inicio.getFullYear()
+        let meses = hoje.getMonth() - inicio.getMonth()
+
+        if (hoje.getDate() < inicio.getDate()) {
+            meses--
+        }
+
+        if (meses < 0) {
+            anos--
+            meses += 12
+        }
+
+        return { anos, meses }
+    })
+</script>
+
 
 <style scoped>
     .tech-card-container {
