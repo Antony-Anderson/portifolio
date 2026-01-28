@@ -37,7 +37,7 @@
                             <p>
                                 Aplicação web desenvolvida para facilitar o gerenciamento de entrevistas e candidatos, permitindo
                                 cadastro, organização e acompanhamento das informações de forma prática. O sistema foi construído
-                                com <strong>Laravel</strong> seguindo o padrão <strong>MVC</strong>, utilizando <strong>API REST</strong>,
+                                com <strong>Symfony</strong> seguindo o padrão <strong>MVC</strong>, utilizando <strong>API REST</strong>,
                                 <strong>Eloquent ORM</strong> e banco de dados relacional, com validações e documentação das rotas.
                             </p>
                         </div>
