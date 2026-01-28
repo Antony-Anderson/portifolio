@@ -6,17 +6,12 @@
                 <h2 class="profile-title">Desenvolvedor Full Stack</h2>
                 <hr>
                 <p class="profile-description">
-                    Como programador full stack apaixonado por tecnologia e inovação, tenho {{ idade }} anos e uma sólida experiência em Laravel, Symfony, PHP, Vue.js, JavaScript, TypeScript, React Native e banco de dados. Minha abordagem para o desenvolvimento de software é marcada por um compromisso inabalável com a qualidade e a eficiência, sempre buscando criar soluções elegantes e funcionais.
+                    Sou desenvolvedor Full Stack com experiência prática em PHP (Laravel e Symfony), Vue.js, JavaScript/TypeScript e MySQL.
                 </p>
                 <p class="profile-description">
-                    Trabalhar em equipe é uma das minhas maiores fortalezas. Valorizo a colaboração e a comunicação aberta, acreditando que um bom projeto é fruto de uma sinergia entre profissionais dedicados. Estou sempre disposto a compartilhar conhecimentos e aprender com os outros, o que contribui para um ambiente de trabalho harmonioso e produtivo.
-                </p>
+                    Atuo no desenvolvimento de aplicações web completas, criando APIs REST, implementando regras de negócio, autenticação, CRUDs complexos e filtros avançados.                </p>
                 <p class="profile-description">
-                    Minha proatividade e espírito autodidata me permitem enfrentar desafios com confiança e buscar constantemente novas habilidades e tecnologias. Tenho um forte desejo de aprimorar minhas competências e estou sempre atualizado com as tendências mais recentes do setor.
-                </p>
-                <p class="profile-description">
-                    Estou pronto para trazer minha experiência e entusiasmo para sua equipe, contribuindo para o desenvolvimento de soluções inovadoras e impactantes.
-                </p>
+                    Tenho foco em código limpo, organização do projeto e entrega consistente. Aqui no portfólio você encontra projetos reais com link e demonstração.                </p>
                 <hr>
             </div>
             <img src="../assets/images/perfil.jpeg" alt="Foto de Antony" class="profile-img">

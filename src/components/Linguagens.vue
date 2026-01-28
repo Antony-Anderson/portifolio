@@ -64,25 +64,27 @@
         </h2>
         <div class="code-card">
             <pre><code>
-    Desenvolvimento de aplicações web robustas usando o framework Laravel, seguindo as melhores práticas de 
-    arquitetura MVC.
-    Criação e integração de APIs RESTful.
-    Uso avançado de Eloquent ORM para manipulação e relacionamento de dados em bancos de dados relacionais.
-    Implementação de testes automatizados unitários.
-    Gerenciamento de filas de trabalhos assíncronos usando o Laravel Queue.
-    Criação de documentação.
+    Desenvolvimento de aplicações web completas com foco em backend utilizando PHP (Laravel/Symfony), 
+    além de interfaces modernas com Vue.js. Experiência com APIs REST, regras de negócio, 
+    bancos relacionais e boas práticas de arquitetura.
 
-    Desenvolvimento de interfaces de usuário dinâmicas e reativas utilizando Vue.js.
-    Criação de componentes reutilizáveis e modulares, utilizando o sistema de slots e props.
-    Integração de Vue Router para navegação single-page e Vuex para gerenciamento de estado global.
-    Uso de APIs do Vue 3, como Composition API, para um código mais modular e organizado.
+    Principais competências:
+    - Desenvolvimento de sistemas web utilizando Laravel seguindo arquitetura MVC
+    - Criação e integração de APIs REST
+    - Manipulação de dados com Eloquent ORM e relacionamentos avançados
+    - Implementação de testes unitários e manutenção de qualidade do código
+    - Uso de filas e jobs assíncronos com Laravel Queue
+    - Criação de documentação técnica
 
-    Desenvolvimento de scripts front-end interativos e responsivos.
-    Manipulação do DOM, eventos e animações usando JavaScript puro.
-    Integração de bibliotecas e frameworks externos para funcionalidades adicionais, como gráficos.
-
-    Programação orientada a objetos em PHP.
-    Integração com sistemas de banco de dados, APIs externas e serviços web.
+    Front-end / Vue.js:
+    - Desenvolvimento de interfaces dinâmicas com Vue 3
+    - Componentização (props/slots) e reutilização de código
+    - Uso de Vue Router e gerenciamento de estado (Vuex/Pinia)
+    - Aplicação de Composition API para organização e escalabilidade do projeto
+    
+    JavaScript:
+    - Criação de funcionalidades interativas, manipulação de DOM e eventos
+    - Integração com bibliotecas externas (ex: gráficos, tabelas e plugins)
             </code></pre>
         </div>
         <h2 class="tech-title">
@@ -91,29 +93,23 @@
         </h2>
         <div class="code-card">
             <pre><code>
-    Trabalho atualmente ultilizando a tecnologica symfony na empresa chamada blue company, onde já estou 
-    atuando atuando há {{ tempoAtuacao.anos }} {{ tempoAtuacao.anos === 1 ? 'ano' : 'anos' }} e {{ tempoAtuacao.meses }} {{ tempoAtuacao.meses === 1 ? 'mês' : 'meses' }}.
-    Principais atividades e entregas com Symfony:
+    Desenvolvedor Full Stack — Blue Company ({{ tempoAtuacao.anos }} {{ tempoAtuacao.anos === 1 ? 'ano' : 'anos' }} e {{ tempoAtuacao.meses }} {{ tempoAtuacao.meses === 1 ? 'mês' : 'meses' }}).
+    Atuação no desenvolvimento e manutenção de aplicações web com Symfony, integrando banco de dados e APIs,
+    com foco em estabilidade e evolução contínua do sistema.
 
-    - Desenvolvimento e manutenção de aplicações web utilizando Symfony Framework
-    - Criação e manutenção de APIs RESTful
+    Principais atividades:
+
+    - Desenvolvimento e manutenção de aplicações web com Symfony
+    - Criação e manutenção de APIs REST
     - Implementação de CRUDs complexos com Doctrine ORM
-    - Modelagem e gerenciamento de banco de dados (MySQL/PostgreSQL)
-    - Criação de entidades, repositórios e migrations
-    - Integração com serviços externos e APIs de terceiros
-    - Implementação de sistemas de autenticação e autorização (roles, permissions, security)
-    - Desenvolvimento de regras de negócio seguindo boas práticas e princípios SOLID
-    - Uso de Twig para renderização de templates
-    - Criação e manutenção de formulários dinâmicos com validações
-    - Tratamento de erros, exceções e logs
-    - Escrita e manutenção de testes automatizados
-    - Otimização de performance e consultas ao banco de dados
-    - Correção de bugs e refatoração de código legado
-    - Versionamento de código com Git
-    - Trabalho colaborativo em equipe seguindo metodologias ágeis (Scrum/Kanban)
-    - Deploy e manutenção de aplicações em ambiente de produção
-    - Documentação técnica de funcionalidades desenvolvidas
-    ...
+    - Modelagem e gerenciamento de banco (MySQL/PostgreSQL)
+    - Implementação de autenticação/autorização (roles/permissions/security)
+    - Regras de negócio aplicando boas práticas e princípios SOLID
+    - Correções, refatorações e manutenção de código legado
+    - Testes automatizados e validações
+    - Versionamento com Git e trabalho colaborativo com Scrum/Kanban
+    - Deploy e manutenção em produção
+    - Documentação técnica
             </code></pre>
         </div>
     </div>
